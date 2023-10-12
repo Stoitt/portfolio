@@ -14,7 +14,6 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-size: 0;
 }
 body {
     background-color: #082338; 
@@ -50,7 +49,6 @@ body {
 }
 .capa div {
     display: inline-block;
-    height: 650px;
 }
 .profile-pic {
     width: 40%;
@@ -59,13 +57,12 @@ body {
 .profile-pic img {
     width: 320px;
     border-radius: 50%;
-    border: 2px solid #daa520;
     margin-top: 100px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
 }
 .profile-title {
     vertical-align: top;
-    width: 60%;
+    width: 59%;
 }
 .profile-title h1 {
     font-size: 54px;
