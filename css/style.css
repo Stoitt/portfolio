@@ -78,3 +78,41 @@ body {
     margin-top: -26px;
     margin-left: 5px;
 }
+.main {
+    padding: 80px 180px 80px 100px;
+}
+.main h1 {
+    color: white;
+    font-weight: normal;
+}
+.main h2 {
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 40px;
+}
+.main h3 {
+    color: #daa520;
+    font-size: 12px;
+}
+.main p {
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
+    line-height: 24px;
+    text-align: justify;
+}
+.caminho {
+    list-style-type: none;
+    padding-left: 0;
+    color: grey;
+}
+.caminho li {
+    display: inline-block;
+}
+ hr {
+    border-color: #04121d;
+    
+    
+    
+}
