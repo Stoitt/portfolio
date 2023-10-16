@@ -117,3 +117,46 @@ body {
     width: 50px;
     margin-right: 8px;
 }
+.miniatura {
+    width: 320px;
+    height: 320px;
+    background-image: url(../imagens/opportunity.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.miniatura a {
+    text-decoration: none;
+}
+    
+
+.blackbox {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    transition: ease-in-out .5s;
+    padding-top: 130px;
+}
+.blackbox:hover {
+    opacity: .8;
+}
+.blackbox-text {
+    text-align: center;
+    
+}
+.blackbox-text h1 {
+    font-size: 16px;
+    color: #daa520;
+    text-transform: uppercase;
+    margin-top: 0;
+    font-weight: 500;
+}
+.blackbox-text h2 {
+    text-transform: none;
+    font-weight: 100;
+    margin-top: 0;
+}
