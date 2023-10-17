@@ -39,6 +39,16 @@ body {
     font-size: 18px;
     font-weight: 200;
 }
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+.navigation a:hover {
+    color: #daa520;
+}
+.navigation ul li.threeline-icon {
+    display: none;
+}
 .capa {
     color: white;
 }
@@ -110,6 +120,9 @@ body {
 .caminho li {
     display: inline-block;
 }
+.caminho a {
+    color: gray;
+}
  hr {
     border-color: #04121d;
 }
@@ -131,8 +144,6 @@ body {
 .miniatura a {
     text-decoration: none;
 }
-    
-
 .blackbox {
     width: 100%;
     height: 100%;
@@ -146,7 +157,6 @@ body {
 }
 .blackbox-text {
     text-align: center;
-    
 }
 .blackbox-text h1 {
     font-size: 16px;
@@ -159,4 +169,11 @@ body {
     text-transform: none;
     font-weight: 100;
     margin-top: 0;
+}
+.foto-trabalhos {
+    width: 100%;
+    
+}
+.back-link {
+    color: #daa520;
 }
