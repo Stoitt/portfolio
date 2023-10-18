@@ -23,6 +23,8 @@ body {
     color: white;
     height: 50px;
     
+    animation-name: navegacao;
+    animation-duration: 5s;
 }
 .navigation ul {
     margin-top: 0;
@@ -63,6 +65,9 @@ body {
 .profile-pic {
     width: 40%;
     text-align: center;
+
+    animation-name: profile-capa;
+    animation-duration: 3s;
 }
 .profile-pic img {
     width: 320px;
@@ -73,6 +78,9 @@ body {
 .profile-title {
     vertical-align: top;
     width: 59%;
+
+    animation-name: titulo-capa;
+    animation-duration: 3s;
 }
 .profile-title h1 {
     font-size: 54px;
@@ -90,6 +98,9 @@ body {
 }
 .main {
     padding: 80px 180px 80px 100px;
+
+    animation-name: conteudo;
+    animation-duration: 3s;
 }
 .main h1 {
     color: white;
@@ -149,11 +160,12 @@ body {
     height: 100%;
     background-color: black;
     opacity: 0;
-    transition: ease-in-out .5s;
     padding-top: 130px;
+    transition: 2s;
 }
 .blackbox:hover {
     opacity: .8;
+    transition: 1s;
 }
 .blackbox-text {
     text-align: center;
@@ -176,4 +188,43 @@ body {
 }
 .back-link {
     color: #daa520;
+}
+@keyframes profile-capa {
+    0% {
+        opacity: 0;
+        transform: translate(0px,20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0px,0px);
+    }
+}
+@keyframes titulo-capa {
+    0% {
+        opacity: 0;
+        transform: translate(0px,-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0px,0px);
+    }
+}
+@keyframes conteudo {
+    0% {
+        opacity: 0;
+        transform: translate(-20px,0px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0px,0px);
+    }
+}
+@keyframes navegacao {
+    0% {
+        opacity: 0;
+        
+    }
+    100% {
+        opacity: 1;
+    }
 }
