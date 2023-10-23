@@ -140,6 +140,7 @@ body {
 .social-img {
     width: 50px;
     margin-right: 8px;
+    margin-bottom: 15px;
 }
 .miniatura {
     width: 320px;
@@ -263,5 +264,48 @@ body {
         margin-left: 20px;
         margin-right: 20px;
     }
-   
+    .main {
+        padding: 10px 5% 40px 5%;
+    }
+    .main a{
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+    .main p {
+        text-align: left;
+        line-height: 30px;
+    }
+    .caminho li {
+        font-size: 14px;
+    }
+    .miniatura {
+        max-width: 100%;
+    }
+    .blackbox {
+        opacity: 0.8;
+    }
+    .social-img {
+        width: 40px;
+    }
+    .menujs {
+        height: auto;
+    }
+    .menujs ul {
+        height: auto;
+        text-align: center;
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+    .menujs li {
+        display: block;
+        border-bottom: 1px solid #274360;
+        width: 100%;
+        padding: 0;
+    }
+    .threeline-icon {
+        cursor: pointer;
+    }
+    .threeline-icon:hover {
+        color: #daa520;
+    }
 }
